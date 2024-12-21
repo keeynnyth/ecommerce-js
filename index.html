@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Mi tienda online con los mejores productos deportivos y precios competitivos.">
+    <meta name="keywords" content="ecommerce, tienda online, deportes, zapatillas, balón, uniformes">
+    <title>Mi eCommerce</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="inicio">
+        <h1>Mi eCommerce</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#reseñas">Reseñas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#carrito">Carrito</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="productos">
+            <h2>Nuestros Productos</h2>
+            <div class="producto-card-container" id="productos-lista">
+                <!-- Productos se cargan dinámicamente -->
+            </div>
+        </section>
+
+        <section id="carrito">
+            <h2>Tu Carrito de Compras</h2>
+            <div id="carrito-contenido">
+                <p>Tu carrito está vacío.</p>
+            </div>
+            <p id="carrito-total">Total: $0 (0 productos)</p>
+            <button id="carrito-vaciar" style="display: none;">Vaciar Carrito</button>
+        </section>
+
+        <section id="reseñas">
+            <h2>Reseñas</h2>
+            <div class="reseñas-grid">
+                <div class="reseña-item">"Excelente atención"</div>
+                <div class="reseña-item">"Los mejores precios"</div>
+                <div class="reseña-item">"Gran Stock"</div>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="https://formspree.io/f/xkgngjod" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="_replyto" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 K. Armando Donado</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

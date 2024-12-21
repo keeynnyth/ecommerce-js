@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "nombre": "Zapatillas",
+        "descripcion": "Zapatillas Nike",
+        "precio": 20,
+        "imagen": "./imagenes/zapatillas.jpeg"
+    },
+    {
+        "id": 2,
+        "nombre": "Balón de Futbol",
+        "descripcion": "Balón Nike 40",
+        "precio": 15,
+        "imagen": "./imagenes/¿qué-tamaño-de-balón-de-fútbol-necesito-ayuda-de-nike.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Uniforme de Futbol",
+        "descripcion": "Uniforme Manchester United",
+        "precio": 30,
+        "imagen": "./imagenes/manchester.jpg"
+    }
+]
